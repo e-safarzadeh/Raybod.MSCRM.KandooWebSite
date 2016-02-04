@@ -1,0 +1,13 @@
+C:\Users\e.safarzadeh\Desktop\WebControlUI__Source\Heidarpour.WebControlUI__Source_And_Sample_1.1.1_.Net4\WebControlUI\bin\Debug\WebControlUI.dll
+C:\Users\e.safarzadeh\Desktop\WebControlUI__Source\Heidarpour.WebControlUI__Source_And_Sample_1.1.1_.Net4\WebControlUI\bin\Debug\WebControlUI.pdb
+C:\Users\e.safarzadeh\Desktop\WebControlUI__Source\Heidarpour.WebControlUI__Source_And_Sample_1.1.1_.Net4\WebControlUI\obj\Debug\WebControlUI.dll
+C:\Users\e.safarzadeh\Desktop\WebControlUI__Source\Heidarpour.WebControlUI__Source_And_Sample_1.1.1_.Net4\WebControlUI\obj\Debug\WebControlUI.pdb
+D:\Raybod\Customers\Vakili\Kandoo\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\WebControlUI\bin\Debug\WebControlUI.dll
+D:\Raybod\Customers\Vakili\Kandoo\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\WebControlUI\bin\Debug\WebControlUI.pdb
+D:\Raybod\Customers\Vakili\Kandoo\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\WebControlUI\obj\Debug\WebControlUI.dll
+D:\Raybod\Customers\Vakili\Kandoo\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\WebControlUI\obj\Debug\WebControlUI.pdb
+D:\Raybod\Customers\Vakili\CandoSiteOld\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\WebControlUI\bin\Debug\WebControlUI.dll
+D:\Raybod\Customers\Vakili\CandoSiteOld\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\WebControlUI\bin\Debug\WebControlUI.pdb
+D:\Raybod\Customers\Vakili\CandoSiteOld\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\WebControlUI\obj\Debug\WebControlUI.dll
+D:\Raybod\Customers\Vakili\CandoSiteOld\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\WebControlUI\obj\Debug\WebControlUI.pdb
+D:\Raybod\Customers\Vakili\CandoSiteOld\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\WebControlUI\obj\Debug\WebControlUI.csprojResolveAssemblyReference.cache

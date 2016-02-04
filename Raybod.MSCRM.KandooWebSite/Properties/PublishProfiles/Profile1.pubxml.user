@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2012-11-05T16:00:16.0000000+03:30</TimeStampOfAssociatedLegacyPublishXmlFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AddRequest.aspx">
+      <publishTime>05/04/2013 11:08:36</publishTime>
+    </File>
+    <File Include="bin/AYCO.MSCRM5.CrmCustomerRequest.dll">
+      <publishTime>05/14/2013 08:56:55</publishTime>
+    </File>
+    <File Include="bin/microsoft.crm.sdk.proxy.dll">
+      <publishTime>09/07/2011 16:14:28</publishTime>
+    </File>
+    <File Include="bin/microsoft.xrm.sdk.dll">
+      <publishTime>09/07/2011 15:12:40</publishTime>
+    </File>
+    <File Include="bin/pcal.dll">
+      <publishTime>07/17/2007 17:22:30</publishTime>
+    </File>
+    <File Include="bin/PersiaGuide.dll">
+      <publishTime>02/03/2008 14:42:10</publishTime>
+    </File>
+    <File Include="bin/WebControlCaptcha.dll">
+      <publishTime>05/04/2013 09:00:18</publishTime>
+    </File>
+    <File Include="FarsiDatePicker/CSS/calendar.css">
+      <publishTime>10/30/2012 13:20:00</publishTime>
+    </File>
+    <File Include="FarsiDatePicker/Images/calendar.jpg">
+      <publishTime>05/19/2012 15:08:06</publishTime>
+    </File>
+    <File Include="FarsiDatePicker/JScripts/amin.js">
+      <publishTime>05/19/2012 15:08:06</publishTime>
+    </File>
+    <File Include="FarsiDatePicker/JScripts/calendar.js">
+      <publishTime>05/19/2012 15:08:06</publishTime>
+    </File>
+    <File Include="FarsiDatePicker/JScripts/JsFarsiCalendar.js">
+      <publishTime>05/19/2012 15:08:06</publishTime>
+    </File>
+    <File Include="images/1315464896_Refresh.jpg">
+      <publishTime>09/08/2011 11:24:02</publishTime>
+    </File>
+    <File Include="images/1315465534_Refresh.jpg">
+      <publishTime>09/08/2011 11:34:24</publishTime>
+    </File>
+    <File Include="images/1315465692_refresh.jpg">
+      <publishTime>09/08/2011 11:37:02</publishTime>
+    </File>
+    <File Include="images/ajax_load_red.gif">
+      <publishTime>10/30/2012 12:10:10</publishTime>
+    </File>
+    <File Include="images/arrow.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/email_button.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/header.jpg">
+      <publishTime>05/04/2013 10:32:39</publishTime>
+    </File>
+    <File Include="images/header_01.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/header_02.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/header_03.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/header_04.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/header_05.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/header_06.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/header_search.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/important.gif">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/list.jpg">
+      <publishTime>09/10/2011 14:41:30</publishTime>
+    </File>
+    <File Include="images/main_level_icon.gif">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/navbar_icon.gif">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/next-disabled.gif">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/next.gif">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/page2_01.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/page2_02.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/page2_03.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/page_01.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/page_02.jpg">
+      <publishTime>09/06/2011 09:19:25</publishTime>
+    </File>
+    <File Include="images/page_03.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/page_04.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/page_05.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/page_06.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/page_07.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/page_08.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/prev-disabled.gif">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/prev.gif">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/print_button.jpg">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/restricted.gif">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/shield_green.png">
+      <publishTime>09/19/2011 14:30:06</publishTime>
+    </File>
+    <File Include="images/shield_red.png">
+      <publishTime>09/19/2011 14:29:52</publishTime>
+    </File>
+    <File Include="images/shield_yellow.png">
+      <publishTime>09/19/2011 14:30:24</publishTime>
+    </File>
+    <File Include="images/spacer.gif">
+      <publishTime>09/06/2011 09:19:26</publishTime>
+    </File>
+    <File Include="images/unlock.jpg">
+      <publishTime>09/10/2011 14:47:48</publishTime>
+    </File>
+    <File Include="lib/microsoft.crm.sdk.proxy.dll">
+      <publishTime>09/07/2011 16:14:28</publishTime>
+    </File>
+    <File Include="lib/microsoft.xrm.sdk.dll">
+      <publishTime>09/07/2011 15:12:40</publishTime>
+    </File>
+    <File Include="lib/WebControlCaptcha.dll">
+      <publishTime>05/04/2013 09:00:18</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>05/11/2013 20:14:46</publishTime>
+    </File>
+    <File Include="Registration.aspx">
+      <publishTime>05/04/2013 11:07:08</publishTime>
+    </File>
+    <File Include="RegistrationConfirm.aspx">
+      <publishTime>05/04/2013 11:07:08</publishTime>
+    </File>
+    <File Include="RequestConfirm.aspx">
+      <publishTime>05/04/2013 11:08:36</publishTime>
+    </File>
+    <File Include="RequestList.aspx">
+      <publishTime>05/04/2013 11:04:39</publishTime>
+    </File>
+    <File Include="Site.master">
+      <publishTime>05/04/2013 10:34:48</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>09/06/2011 11:42:48</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/14/2013 08:56:56</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="CrmCustomerRequest.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head></head>
+<body style="padding:0px ; margin:0px; border:0px;">
+    <form id="form1" runat="server">
+    <center>
+        <div style="width: 945px">
+            <table dir="ltr" cellpadding="0" cellspacing="0" width="945px" style="padding: 0px;
+                margin: 0px; height: 35px;" border="0" align="center">
+                <tbody valign="Top">
+                    <tr dir="rtl" width="945px" valign="top">
+                        <td colspan="1" height="75">
+                            <img src="images/header_01.jpg" border="0" width="11" height="75px">
+                        </td>
+                        <td width="11" height="75">
+                            <img src="images/header_03.jpg" border="0" width="65" height="75px">
+                        </td>
+                        <td width="11" height="75px">
+                            <img src="images/header_03.jpg" border="0" width="700" height="75px">
+                        </td>
+                        <td width="11" height="75px">
+                            <img src="images/header_04.jpg" border="0" width="158" height="75px" style="height: 75px">
+                        </td>
+                        <td width="11" height="75px">
+                            <img src="images/header_05.jpg" border="0" width="11" height="75px" dir="rtl">
+                        </td>
+                    </tr>
+                    <tr dir="rtl" width="945px" valign="top">
+                        <td height="30px" style="background-color: #ECEBEB">
+                        </td>
+                        <td height="30px" style="background-color: #ECEBEB" align="right" colspan="4" valign="top"
+                            width="717" class="style3">
+                            <a href="http://www.ayco.ir">
+                                <img src="images/header_06.jpg" border="0" width="717" height="35"></a>
+                        </td>
+                    </tr>
+            </table>
+        </div>
+        <div style="width: 945px">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </center>
+    </form>
+</body>
+</html>
