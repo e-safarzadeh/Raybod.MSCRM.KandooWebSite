@@ -124,8 +124,9 @@ namespace Raybod.MSCRM.KandooWebSite
                                                            "new_endtime", "new_status", "new_attendancelistid", "createdon", "new_starttime1", "new_minutesstart", "new_endtime1", "new_minutesend"});
             query.Criteria.AddCondition("new_relatedteacher", ConditionOperator.Equal, new Guid("{" + Session["Personnelid"].ToString() + "}"));
             query.Criteria.AddCondition("new_relatedclassid", ConditionOperator.Equal, new Guid(ClassId));
-            OrderExpression _Order = new OrderExpression("new_dateholding", OrderType.Ascending);
+            OrderExpression _Order = new OrderExpression("new_status", OrderType.Descending);
             query.Orders.Add(_Order);
+
 
             EntityCollection retrieved = crmService.RetrieveMultiple(query);
 
