@@ -161,9 +161,9 @@ namespace Raybod.MSCRM.KandooWebSite
                     txtMeetingName.Text = _meetingEn["new_name"].ToString();
                     txtStatus.Text = GetOptionsSetTextOnValue(crmService, "new_attendancelist", "new_status", ((OptionSetValue)_meetingEn["new_status"]).Value, 1065);
                     cmbStarttime.SelectedValue = (((OptionSetValue)_meetingEn["new_starttime1"]).Value).ToString();
-                    cmbMinutesStart.SelectedValue = (((OptionSetValue)_meetingEn["new_minutesstart"]).Value).ToString();
+                    //cmbMinutesStart.SelectedValue = (((OptionSetValue)_meetingEn["new_minutesstart"]).Value).ToString();
                     cmbEndTime.SelectedValue = (((OptionSetValue)_meetingEn["new_endtime1"]).Value).ToString();
-                    cmdMinutesEnd.SelectedValue = (((OptionSetValue)_meetingEn["new_minutesend"]).Value).ToString();
+                    //cmdMinutesEnd.SelectedValue = (((OptionSetValue)_meetingEn["new_minutesend"]).Value).ToString();
 
                     //پر نمودن گرید
                     FillStudentList();
@@ -239,12 +239,19 @@ namespace Raybod.MSCRM.KandooWebSite
                 string id = RequestMeetingDetailView.DataKeys[gr.RowIndex]["attendanceitemsid"].ToString();
                 if (id != null)
                 {
+                    if(ralist.SelectedIndex == -1)
+                    {
+                        MessageBox.Show("لطفاً حضور و غیاب تمامی دانشجویان را ثبت نمایید");
+                        return;
+                    }
                     Entity attendanceItem = crmService.Retrieve("new_attendanceitems", new Guid("{" + id + "}"), new ColumnSet(true));
                     if (ralist.SelectedIndex == 0)
                         attendanceItem["new_present"] = new OptionSetValue(1);
                     else if (ralist.SelectedIndex == 1)
                         attendanceItem["new_present"] = new OptionSetValue(2);
                     crmService.Update(attendanceItem);
+
+                    
                 }
             }
 

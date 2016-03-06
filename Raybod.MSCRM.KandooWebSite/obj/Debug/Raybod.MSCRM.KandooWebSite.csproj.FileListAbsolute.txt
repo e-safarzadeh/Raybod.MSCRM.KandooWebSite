@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Raybod\Customers\Vakili\Kandoo\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\Raybod.MSCRM.KandooWebSite.dll.config
 D:\Raybod\Customers\Vakili\Kandoo\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\Raybod.MSCRM.KandooWebSite.dll
 D:\Raybod\Customers\Vakili\Kandoo\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\Raybod.MSCRM.KandooWebSite.pdb
@@ -31,3 +32,27 @@ E:\Private\Project\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\Web
 E:\Private\Project\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\obj\Debug\Raybod.MSCRM.KandooWebSite.csprojResolveAssemblyReference.cache
 E:\Private\Project\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\obj\Debug\Raybod.MSCRM.KandooWebSite.dll
 E:\Private\Project\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\obj\Debug\Raybod.MSCRM.KandooWebSite.pdb
+=======
+D:\Raybod\Customers\Vakili\Kandoo\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\Raybod.MSCRM.KandooWebSite.dll.config
+D:\Raybod\Customers\Vakili\Kandoo\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\Raybod.MSCRM.KandooWebSite.dll
+D:\Raybod\Customers\Vakili\Kandoo\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\Raybod.MSCRM.KandooWebSite.pdb
+D:\Raybod\Customers\Vakili\Kandoo\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\microsoft.crm.sdk.proxy.dll
+D:\Raybod\Customers\Vakili\Kandoo\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\microsoft.xrm.sdk.dll
+D:\Raybod\Customers\Vakili\Kandoo\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\WebControlCaptcha.dll
+D:\Raybod\Customers\Vakili\Kandoo\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\WebControlUI.dll
+D:\Raybod\Customers\Vakili\Kandoo\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\WebControlUI.pdb
+D:\Raybod\Customers\Vakili\Kandoo\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\obj\Debug\Raybod.MSCRM.KandooWebSite.csprojResolveAssemblyReference.cache
+D:\Raybod\Customers\Vakili\Kandoo\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\obj\Debug\Raybod.MSCRM.KandooWebSite.dll
+D:\Raybod\Customers\Vakili\Kandoo\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\obj\Debug\Raybod.MSCRM.KandooWebSite.pdb
+D:\Raybod\Customers\Vakili\CandoSiteOld\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\Raybod.MSCRM.KandooWebSite.dll.config
+D:\Raybod\Customers\Vakili\CandoSiteOld\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\Raybod.MSCRM.KandooWebSite.dll
+D:\Raybod\Customers\Vakili\CandoSiteOld\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\Raybod.MSCRM.KandooWebSite.pdb
+D:\Raybod\Customers\Vakili\CandoSiteOld\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\microsoft.crm.sdk.proxy.dll
+D:\Raybod\Customers\Vakili\CandoSiteOld\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\microsoft.xrm.sdk.dll
+D:\Raybod\Customers\Vakili\CandoSiteOld\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\WebControlCaptcha.dll
+D:\Raybod\Customers\Vakili\CandoSiteOld\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\WebControlUI.dll
+D:\Raybod\Customers\Vakili\CandoSiteOld\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\bin\WebControlUI.pdb
+D:\Raybod\Customers\Vakili\CandoSiteOld\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\obj\Debug\Raybod.MSCRM.KandooWebSite.csprojResolveAssemblyReference.cache
+D:\Raybod\Customers\Vakili\CandoSiteOld\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\obj\Debug\Raybod.MSCRM.KandooWebSite.dll
+D:\Raybod\Customers\Vakili\CandoSiteOld\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\Raybod.MSCRM.KandooWebSite\obj\Debug\Raybod.MSCRM.KandooWebSite.pdb
+>>>>>>> 54f85e2d191b8aafe0b0f7e2a30ee669783a665d
