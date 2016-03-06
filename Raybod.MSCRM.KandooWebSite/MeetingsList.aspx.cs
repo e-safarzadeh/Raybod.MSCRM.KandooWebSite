@@ -104,7 +104,7 @@ namespace Raybod.MSCRM.KandooWebSite
             return convertedDate;
         }
 
-        private void FillMeetingList()
+        private void FillMeetingList(int page)
         {
             #region Create Table
             DataTable dtb = new DataTable();
@@ -127,7 +127,19 @@ namespace Raybod.MSCRM.KandooWebSite
             OrderExpression _Order = new OrderExpression("new_dateholding", OrderType.Ascending);
             query.Orders.Add(_Order);
 
+			query.PageInfo = new PagingInfo();
+			query.PageInfo.ReturnTotalRecordCount = true;
+			query.PageInfo.Count = 10;
+			query.PageInfo.PageNumber = page;
+
+			query.PageInfo.PagingCookie = null;
+
             EntityCollection retrieved = crmService.RetrieveMultiple(query);
+
+			if (retrieved.MoreRecords)
+			{
+				query.PageInfo.PagingCookie = retrieved.PagingCookie;
+			}
 
             #endregion
 
@@ -164,7 +176,8 @@ namespace Raybod.MSCRM.KandooWebSite
             }
             #endregion
 
-            RequestMeetingView.DataSource = dtb;
+			RequestMeetingView.PageSize = 10;
+			RequestMeetingView.DataSource = dtb;
             RequestMeetingView.DataBind();
         }
 
@@ -182,7 +195,7 @@ namespace Raybod.MSCRM.KandooWebSite
                 Entity _User = new Entity("systemuser");
                 _User = crmService.Retrieve("systemuser", new Guid(Session["Personnelid"].ToString()), new ColumnSet(true));
                 LabelUser.Text = _User["fullname"].ToString();
-                FillMeetingList();
+                FillMeetingList(1);
             }
         }
         protected void LinkSignOut_Click(object sender, EventArgs e)
@@ -195,7 +208,7 @@ namespace Raybod.MSCRM.KandooWebSite
         }
         protected void RefreshBtn_Click(object sender, ImageClickEventArgs e)
         {
-            FillMeetingList();
+            FillMeetingList(1);
         }
         protected void linkRequest_Click(object sender, EventArgs e)
         {
@@ -220,7 +233,7 @@ namespace Raybod.MSCRM.KandooWebSite
         protected void RequestMeetingView_PageIndexChanging(object sender, GridViewPageEventArgs e)
         {
             RequestMeetingView.PageIndex = e.NewPageIndex;
-            FillMeetingList();
+			FillMeetingList(e.NewPageIndex + 1);
         }
         protected void RequestMeetingView_RowCancelingEdit(object sender, GridViewCancelEditEventArgs e)
         {

@@ -95,7 +95,7 @@ namespace Raybod.MSCRM.KandooWebSite
             return convertedDate;
         }
 
-        private void FillClassList()
+        private void FillClassList(int page)
         {
             #region Create Table
             DataTable dtb = new DataTable();
@@ -122,10 +122,23 @@ namespace Raybod.MSCRM.KandooWebSite
             query.Criteria.AddCondition("new_teacherid", ConditionOperator.Equal, new Guid("{" + Session["Personnelid"].ToString() + "}"));
             query.Criteria.AddCondition("new_classstatus", ConditionOperator.NotEqual, 4);
             query.Criteria.AddCondition("new_classstatus", ConditionOperator.NotEqual, 5);
+
             OrderExpression _Order = new OrderExpression("new_startdate", OrderType.Ascending);
             query.Orders.Add(_Order);
 
+			query.PageInfo = new PagingInfo();
+			query.PageInfo.ReturnTotalRecordCount = true;
+			query.PageInfo.Count = 10;
+			query.PageInfo.PageNumber = page;
+
+			query.PageInfo.PagingCookie = null;
+
             EntityCollection retrieved = crmService.RetrieveMultiple(query);
+
+			if (retrieved.MoreRecords)
+			{
+				query.PageInfo.PagingCookie = retrieved.PagingCookie;
+			}
             #endregion
 
             #region Fill DataTable
@@ -167,7 +180,8 @@ namespace Raybod.MSCRM.KandooWebSite
             }
             #endregion
 
-            RequestClassView.DataSource = dtb;
+			RequestClassView.PageSize = 10;
+			RequestClassView.DataSource = dtb;
             RequestClassView.DataBind();
         }
 
@@ -185,7 +199,7 @@ namespace Raybod.MSCRM.KandooWebSite
                 Entity _User = new Entity("systemuser");
                 _User = crmService.Retrieve("systemuser", new Guid(Session["Personnelid"].ToString()), new ColumnSet(new string[] { "systemuserid", "fullname" }));
                 LabelUser.Text = _User["fullname"].ToString();
-                FillClassList();
+                FillClassList(1);
             }
         }
         protected void LinkSignOut_Click(object sender, EventArgs e)
@@ -195,7 +209,7 @@ namespace Raybod.MSCRM.KandooWebSite
         }
         protected void RefreshBtn_Click(object sender, ImageClickEventArgs e)
         {
-            FillClassList();
+            FillClassList(1);
         }
         protected void RequestClassView_RowCommand(object sender, GridViewCommandEventArgs e)
         {
@@ -216,7 +230,7 @@ namespace Raybod.MSCRM.KandooWebSite
         protected void RequestClassView_PageIndexChanging(object sender, GridViewPageEventArgs e)
         {
             RequestClassView.PageIndex = e.NewPageIndex;
-            FillClassList();
+            FillClassList(e.NewPageIndex + 1);
         }
         protected void RequestClassView_RowCancelingEdit(object sender, GridViewCancelEditEventArgs e)
         {

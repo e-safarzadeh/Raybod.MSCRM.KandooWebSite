@@ -7,7 +7,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
     <LastUsedPlatform>Any CPU</LastUsedPlatform>
-    <TimeStampOfAssociatedLegacyPublishXmlFile>2012-11-05T16:00:16.0000000+03:30</TimeStampOfAssociatedLegacyPublishXmlFile>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>
+    </TimeStampOfAssociatedLegacyPublishXmlFile>
+    <_PublishTargetUrl>D:\Customer Project\TarheJame\TicketSite</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="AddRequest.aspx">
@@ -17,10 +19,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/14/2013 08:56:55</publishTime>
     </File>
     <File Include="bin/microsoft.crm.sdk.proxy.dll">
-      <publishTime>09/07/2011 16:14:28</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="bin/microsoft.xrm.sdk.dll">
-      <publishTime>09/07/2011 15:12:40</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="bin/pcal.dll">
       <publishTime>07/17/2007 17:22:30</publishTime>
@@ -28,155 +30,233 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/PersiaGuide.dll">
       <publishTime>02/03/2008 14:42:10</publishTime>
     </File>
+    <File Include="bin/Raybod.MSCRM.KandooWebSite.dll">
+      <publishTime>02/21/2016 22:42:26</publishTime>
+    </File>
     <File Include="bin/WebControlCaptcha.dll">
-      <publishTime>05/04/2013 09:00:18</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
+    </File>
+    <File Include="bin/WebControlUI.dll">
+      <publishTime>02/21/2016 22:42:26</publishTime>
+    </File>
+    <File Include="ChangePass.aspx">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="ChangeUser.aspx">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="ClassDetail.aspx">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="ClassList.aspx">
+      <publishTime>02/21/2016 15:56:03</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="Content/MdBootstrapPersianDateTimePicker/jquery.Bootstrap-PersianDateTimePicker.css">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="Content/MdBootstrapPersianDateTimePicker/jquery.Bootstrap-PersianDateTimePicker.min.css">
+      <publishTime>02/04/2016 14:13:11</publishTime>
     </File>
     <File Include="FarsiDatePicker/CSS/calendar.css">
-      <publishTime>10/30/2012 13:20:00</publishTime>
+      <publishTime>02/04/2016 14:13:11</publishTime>
     </File>
     <File Include="FarsiDatePicker/Images/calendar.jpg">
-      <publishTime>05/19/2012 15:08:06</publishTime>
+      <publishTime>02/04/2016 14:13:11</publishTime>
     </File>
     <File Include="FarsiDatePicker/JScripts/amin.js">
-      <publishTime>05/19/2012 15:08:06</publishTime>
+      <publishTime>02/04/2016 14:13:11</publishTime>
     </File>
     <File Include="FarsiDatePicker/JScripts/calendar.js">
-      <publishTime>05/19/2012 15:08:06</publishTime>
+      <publishTime>02/04/2016 14:13:11</publishTime>
     </File>
     <File Include="FarsiDatePicker/JScripts/JsFarsiCalendar.js">
-      <publishTime>05/19/2012 15:08:06</publishTime>
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/1315464896_Refresh.jpg">
-      <publishTime>09/08/2011 11:24:02</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/1315465534_Refresh.jpg">
-      <publishTime>09/08/2011 11:34:24</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/1315465692_refresh.jpg">
-      <publishTime>09/08/2011 11:37:02</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/ajax_load_red.gif">
-      <publishTime>10/30/2012 12:10:10</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/arrow.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
+    </File>
+    <File Include="images/Calendar.gif">
+      <publishTime>02/04/2016 14:13:12</publishTime>
+    </File>
+    <File Include="images/CalendarToolbox.bmp">
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/email_button.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/header.jpg">
-      <publishTime>05/04/2013 10:32:39</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/header_01.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/header_02.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/header_03.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/header_04.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/header_05.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/header_06.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
+    </File>
+    <File Include="images/Header_Flatron.jpg">
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/header_search.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/important.gif">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/list.jpg">
-      <publishTime>09/10/2011 14:41:30</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/main_level_icon.gif">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/navbar_icon.gif">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/next-disabled.gif">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/next.gif">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/page2_01.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/page2_02.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/page2_03.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
+    </File>
+    <File Include="images/PageTitle.jpg">
+      <publishTime>02/04/2016 14:13:12</publishTime>
+    </File>
+    <File Include="images/PageTitle1.jpg">
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/page_01.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/page_02.jpg">
-      <publishTime>09/06/2011 09:19:25</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/page_03.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/page_04.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/page_05.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/page_06.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/page_07.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/page_08.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/prev-disabled.gif">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/prev.gif">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/print_button.jpg">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/restricted.gif">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/shield_green.png">
-      <publishTime>09/19/2011 14:30:06</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/shield_red.png">
-      <publishTime>09/19/2011 14:29:52</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/shield_yellow.png">
-      <publishTime>09/19/2011 14:30:24</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/spacer.gif">
-      <publishTime>09/06/2011 09:19:26</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="images/unlock.jpg">
-      <publishTime>09/10/2011 14:47:48</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="lib/microsoft.crm.sdk.proxy.dll">
-      <publishTime>09/07/2011 16:14:28</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="lib/microsoft.xrm.sdk.dll">
-      <publishTime>09/07/2011 15:12:40</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="lib/WebControlCaptcha.dll">
-      <publishTime>05/04/2013 09:00:18</publishTime>
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="Login.aspx">
-      <publishTime>05/11/2013 20:14:46</publishTime>
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="MeetingDetail.aspx">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="MeetingsList.aspx">
+      <publishTime>02/21/2016 22:20:06</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>02/04/2016 14:13:12</publishTime>
     </File>
     <File Include="Registration.aspx">
       <publishTime>05/04/2013 11:07:08</publishTime>
@@ -187,17 +267,44 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="RequestConfirm.aspx">
       <publishTime>05/04/2013 11:08:36</publishTime>
     </File>
+    <File Include="RequestConfirmMeeting.aspx">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="RequestConfirmTeacher.aspx">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="RequestConfirmTecnical.aspx">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
     <File Include="RequestList.aspx">
       <publishTime>05/04/2013 11:04:39</publishTime>
     </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
     <File Include="Site.master">
-      <publishTime>05/04/2013 10:34:48</publishTime>
+      <publishTime>02/04/2016 14:13:11</publishTime>
     </File>
     <File Include="Styles/Site.css">
-      <publishTime>09/06/2011 11:42:48</publishTime>
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="TechnicalList.aspx">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="TechnicalRequest.aspx">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="TuitionList.aspx">
+      <publishTime>02/04/2016 14:13:11</publishTime>
+    </File>
+    <File Include="TuitionRequest.aspx">
+      <publishTime>02/04/2016 14:13:11</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>05/14/2013 08:56:56</publishTime>
+      <publishTime>02/21/2016 22:42:27</publishTime>
     </File>
   </ItemGroup>
 </Project>
