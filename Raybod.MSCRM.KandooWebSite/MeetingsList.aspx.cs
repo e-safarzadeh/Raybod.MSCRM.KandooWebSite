@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -127,10 +127,10 @@ namespace Raybod.MSCRM.KandooWebSite
 			OrderExpression _Order = new OrderExpression("new_dateholding", OrderType.Ascending);
 			query.Orders.Add(_Order);
 
-			query.PageInfo = new PagingInfo();
-			query.PageInfo.ReturnTotalRecordCount = true;
-			query.PageInfo.Count = 10;
-			query.PageInfo.PageNumber = page;
+            query.PageInfo = new PagingInfo();
+            query.PageInfo.ReturnTotalRecordCount = true;
+            query.PageInfo.Count = 10;
+            query.PageInfo.PageNumber = page;
 
 			query.PageInfo.PagingCookie = null;
 
