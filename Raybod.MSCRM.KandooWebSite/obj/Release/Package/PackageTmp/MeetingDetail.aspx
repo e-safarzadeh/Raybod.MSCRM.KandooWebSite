@@ -103,27 +103,31 @@
                             </asp:DropDownList>
                         </td>
                         <td style="height: 24px; font-size: x-small; text-align: right; width: 112px;" valign="baseline">
-                            <span style="font-family: Tahoma; font-size: x-small; font-weight: bold">دقیقه:</span>
-                        </td>
+                            <span style="font-family: Tahoma; font-size: x-small; font-weight: bold">دقیقه:</span>&nbsp; <span style="font-family: Tahoma; font-size: x-small; font-weight: bold"><span style="color: #FF0000">*</span></span></td>
                         <td style="height: 24px; font-size: x-small; text-align: right; width: 186px;" valign="baseline">
                             <asp:DropDownList ID="cmbMinutesStart" runat="server" Font-Names="Tahoma" Font-Size="X-Small"
                                 Height="20px" Width="216px">
-                                <asp:ListItem Value="0">00</asp:ListItem>
-                                <asp:ListItem Value="5">05</asp:ListItem>
-                                <asp:ListItem Value="10">10</asp:ListItem>
-                                <asp:ListItem Value="15">15</asp:ListItem>
-                                <asp:ListItem Value="20">20</asp:ListItem>
-                                <asp:ListItem Value="25">25</asp:ListItem>
-                                <asp:ListItem Value="30">30</asp:ListItem>
-                                <asp:ListItem Value="35">35</asp:ListItem>
-                                <asp:ListItem Value="40">40</asp:ListItem>
-                                <asp:ListItem Value="45">45</asp:ListItem>
-                                <asp:ListItem Value="50">50</asp:ListItem>
-                                <asp:ListItem Value="55">55</asp:ListItem>
+                                <asp:ListItem Value="100" Selected="True">بدون انتخاب</asp:ListItem>
+                                <asp:ListItem Value="0" Selected ="False">00</asp:ListItem>
+                                <asp:ListItem Value="5" Selected ="False">05</asp:ListItem>
+                                <asp:ListItem Value="10" Selected ="False">10</asp:ListItem>
+                                <asp:ListItem Value="15" Selected ="False">15</asp:ListItem>
+                                <asp:ListItem Value="20" Selected ="False">20</asp:ListItem>
+                                <asp:ListItem Value="25" Selected ="False">25</asp:ListItem>
+                                <asp:ListItem Value="30" Selected ="False">30</asp:ListItem>
+                                <asp:ListItem Value="35" Selected ="False">35</asp:ListItem>
+                                <asp:ListItem Value="40" Selected ="False">40</asp:ListItem>
+                                <asp:ListItem Value="45" Selected ="False">45</asp:ListItem>
+                                <asp:ListItem Value="50" Selected ="False">50</asp:ListItem>
+                                <asp:ListItem Value="55" Selected ="False">55</asp:ListItem>
                             </asp:DropDownList>
                         </td>
                         <td style="height: 24px; font-size: x-small; text-align: right; width: 74px;" valign="baseline"></td>
-                        <td style="height: 24px; font-size: x-small; text-align: right; width: 186px;" valign="baseline">&nbsp;</td>
+                        <td style="height: 24px; font-size: x-small; text-align: right; width: 186px;" valign="baseline">
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="cmbMinutesStart"
+                                Display="Dynamic" InitialValue="100" ErrorMessage="لطفا زمان شروع را وارد كنيد." Font-Bold="False"
+                                Font-Names="Tahoma" ForeColor="#FF3300" CssClass="style14" Style="font-size: x-small"></asp:RequiredFieldValidator>
+                        </td>
                     </tr>
                     <tr>
                         <td align="right" style="width: 92px">
@@ -132,7 +136,7 @@
                         <td style="height: 24px; font-size: x-small; text-align: right; width: 186px;" valign="baseline">
                             <asp:DropDownList ID="cmbEndTime" runat="server" Font-Names="Tahoma" Font-Size="X-Small"
                                 Height="20px" Width="207px">
-                                                                <asp:ListItem Value="0">00</asp:ListItem>
+                                <asp:ListItem Value="0">00</asp:ListItem>
                                 <asp:ListItem Value="1">01</asp:ListItem>
                                 <asp:ListItem Value="2">02</asp:ListItem>
                                 <asp:ListItem Value="3">03</asp:ListItem>
@@ -160,12 +164,12 @@
                             </asp:DropDownList>
                         </td>
                         <td style="height: 24px; font-size: x-small; text-align: right; width: 112px;" valign="baseline">
-                            <span style="font-family: Tahoma; font-size: x-small; font-weight: bold">دقیقه:</span>
-                        </td>
+                            <span style="font-family: Tahoma; font-size: x-small; font-weight: bold">دقیقه:</span>&nbsp; <span style="font-family: Tahoma; font-size: x-small; font-weight: bold"><span style="color: #FF0000">*</span></span></td>
                         <td style="height: 24px; font-size: x-small; text-align: right; width: 186px;" valign="baseline">
                             <asp:DropDownList ID="cmdMinutesEnd" runat="server" Font-Names="Tahoma" Font-Size="X-Small"
                                 Height="20px" Width="216px">
-                                                                <asp:ListItem Value="0">00</asp:ListItem>
+                                <asp:ListItem Value="100" Selected="True">بدون انتخاب</asp:ListItem>
+                                <asp:ListItem Value="0">00</asp:ListItem>
                                 <asp:ListItem Value="5">05</asp:ListItem>
                                 <asp:ListItem Value="10">10</asp:ListItem>
                                 <asp:ListItem Value="15">15</asp:ListItem>
@@ -180,7 +184,11 @@
                             </asp:DropDownList>
                         </td>
                         <td style="height: 24px; font-size: x-small; text-align: right; width: 74px;" valign="baseline"></td>
-                        <td style="height: 24px; font-size: x-small; text-align: right; width: 186px;" valign="baseline">&nbsp;</td>
+                        <td style="height: 24px; font-size: x-small; text-align: right; width: 186px;" valign="baseline">
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="cmdMinutesEnd"
+                                Display="Dynamic" InitialValue="100" ErrorMessage="لطفا زمان پایان را وارد كنيد." Font-Bold="False"
+                                Font-Names="Tahoma" ForeColor="#FF3300" CssClass="style14" Style="font-size: x-small"></asp:RequiredFieldValidator>
+                        </td>
                     </tr>
                     <tr>
                         <td style="width: 92px; text-align: right;">&nbsp;

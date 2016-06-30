@@ -1,4 +1,4 @@
-E:\Private\Project\Raybod.MSCRM.KandooWebSite\WebControlUI\bin\Release\WebControlUI.dll
-E:\Private\Project\Raybod.MSCRM.KandooWebSite\WebControlUI\bin\Release\WebControlUI.pdb
-E:\Private\Project\Raybod.MSCRM.KandooWebSite\WebControlUI\obj\Release\WebControlUI.dll
-E:\Private\Project\Raybod.MSCRM.KandooWebSite\WebControlUI\obj\Release\WebControlUI.pdb
+D:\Private\Project\Raybod.MSCRM.KandooWebSite\WebControlUI\bin\Release\WebControlUI.dll
+D:\Private\Project\Raybod.MSCRM.KandooWebSite\WebControlUI\bin\Release\WebControlUI.pdb
+D:\Private\Project\Raybod.MSCRM.KandooWebSite\WebControlUI\obj\Release\WebControlUI.dll
+D:\Private\Project\Raybod.MSCRM.KandooWebSite\WebControlUI\obj\Release\WebControlUI.pdb
